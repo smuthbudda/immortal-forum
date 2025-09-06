@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres
+    container_name: immortal-psql
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: ABC.123
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
