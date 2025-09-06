@@ -17,7 +17,7 @@
     "--privileged",
     "--gpus=all"
   ],
-  "forwardPorts": [5000, 11434, 15500],
+  "forwardPorts": [5000, 5173, 11434, 15500],
   "customizations": {
     "vscode": {
       "extensions": [
