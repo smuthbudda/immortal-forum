@@ -8,7 +8,7 @@ import {
 
 // The 'dude' table represents a user in the system.
 export const dude = pgTable("dude", {
-  id: integer("id").primaryKey(),
+  id: integer("id").primaryKey().generatedAlwaysAsIdentity(),
   username: varchar("username", { length: 255 }).notNull(),
   email: varchar("email", { length: 255 }).notNull(),
   password_hash: varchar("password_hash", { length: 255 }),
