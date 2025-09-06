@@ -45,6 +45,13 @@
 			required
 		/>
 		<input 
+			type="text" 
+			placeholder="password" 
+			name="password" 
+			value={$page.form?.password || ''}
+			required
+		/>
+		<input 
 			type="email" 
 			placeholder="Email" 
 			name="email" 
