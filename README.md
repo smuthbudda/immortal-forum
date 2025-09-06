@@ -41,3 +41,16 @@ Setup docker database:
 
 ```sh
     docker-compose up -d
+```
+
+Run drizzle commands
+
+```sh
+    npx drizzle-kit push
+```
+
+
+```sh
+    npx drizzle-kit generate
+    npx drizzle-kit migrate
+```
