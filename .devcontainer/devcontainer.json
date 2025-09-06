@@ -1,5 +1,5 @@
 {
-  "name": "cwl",
+  "name": "immortal",
   "build": {
     "dockerfile": "Dockerfile",
     "args": {
@@ -25,9 +25,7 @@
         "esbenp.prettier-vscode",
         "eamodio.gitlens",
         "ms-python.python",
-        "ms-azuretools.vscode-azureresourcegroups",
-        "ms-azuretools.vscode-bicep",
-        "ms-vscode.azure-cli-tools",
+        "svelte.svelte-vscode",
         "anthropic.claude-code" // Claude (Code) extension
       ],
       "settings": {
