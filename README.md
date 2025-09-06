@@ -49,6 +49,7 @@ Run drizzle commands
     npx drizzle-kit push
 ```
 
+These do the same thing but separately
 
 ```sh
     npx drizzle-kit generate

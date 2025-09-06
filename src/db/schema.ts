@@ -5,10 +5,10 @@ export const dude = pgTable('dude', {
   id: integer('id').primaryKey(),
   username: varchar('username', { length: 255 }).notNull(),
   email: varchar('email', { length: 255 }).notNull(),
-  password_hash: varchar('password_hash', { length: 255 }).notNull(),
+  password_hash: varchar('password_hash', { length: 255 }),
   createdAt: timestamp('created_at').defaultNow().notNull(),
   externalId: varchar('external_id', { length: 255 }),
-});
+});iojklmuuuuu
 
 // The 'dudeReputation' table stores reputation points for each user.
 export const dudeReputation = pgTable('dude_reputation', {
